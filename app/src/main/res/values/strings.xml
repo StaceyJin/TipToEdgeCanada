@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">provinceDisplay</string>
+    <string name="btnNwt">Northwest Territories</string>
+    <string name="btnNs">Nova Scotia</string>
+    <string name="btnPei">Prince Edward Island</string>
+
+    <string name="nwt_disp">
+        Northwest Territories, region of northern and northwestern
+        Canada encompassing a vast area of forests and tundra. The
+        Northwest Territories are bordered by Nunavut to the east,
+        the provinces of Saskatchewan, Alberta, and British Columbia
+        to the south, and Yukon to the west. In the north the territories
+        extend far above the Arctic Circle to incorporate numerous islands,
+        the largest of which are Banks and Prince Patrick; several islands
+        also are divided between the territories and Nunavut, notably Victoria
+        and Melville. Yellowknife is the capital and largest city. Area: 1,346,106
+        square km. Pop. 44,826 (2019 est.).
+    </string>
+
+    <string name="ns_disp">
+        Nova Scotia is located in easternmost Canada (upper east coast
+        of North America), and is one of four Atlantic Provinces. Almost
+        completely surrounded by the Atlantic Ocean, Nova Scotia offers
+        plenty of coastline to explore, including the World Famous Bay of Fundy.
+        Discover Nova Scotia\'s must-see signature attractions including the
+        Peggy\'s Cove Lighthouse, the Joggins Fossil Cliffs (a UNESCO World
+        Heritage Site), and the scenic Cabot Trail on Cape Breton Island.
+        Come enjoy our warm East Coast Hospitality, and sample our fresh Atlantic
+        Canada Seafood!
+    </string>
+
+    <string name="pei_disp">
+       Prince Edward Island is one of eastern Canada\'s maritime provinces,
+        off New Brunswick and Nova Scotia in the Gulf of St. Lawrence. The
+        large island is marked by red-sand beaches, lighthouses, and fertile
+        farmland, and is renowned for seafood like lobster and mussels.
+        Charlottetown, the capital, is home to Victorian government buildings &amp;
+        the modern Confederation Centre of the Arts, with a theatre and art gallery.
+    </string>
+</resources>

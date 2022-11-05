@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#BA99F4"
+    android:padding="10dp"
+
+    tools:context=".MainActivity">
+
+    <AnalogClock
+        android:id="@+id/aClockId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:id="@+id/txtViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aClockId"
+        android:layout_alignTop="@id/btnShowdate"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/btnShowdate"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnShowdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aClockId"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="35dp"
+        android:onClick="onClick"
+        android:text="Travel Date"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/btnNwt"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnShowdate"
+        android:drawableLeft="@drawable/nwt"
+        android:onClick="onClick"
+        android:text="Northwest Territories"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnNs"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnNwt"
+        android:drawableLeft="@drawable/ns"
+        android:onClick="onClick"
+        android:text="Nova Scotia"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnPei"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnNs"
+        android:drawableLeft="@drawable/pei"
+        android:onClick="onClick"
+        android:text="Prince Edward Island"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
